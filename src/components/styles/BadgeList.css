@@ -1,0 +1,30 @@
+.BadgeList__section-name {
+  display: flex;
+  background-color: white;
+  box-shadow: 02px 4px 0rgba (0, 0, 0, 0.23);
+  justify-content: left;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.BadgeList__avatar {
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+.twitter__logo {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url("../../images/twitter.svg");
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
