@@ -14,7 +14,7 @@ class Home extends React.Component {
             <img src={confLogo} alt="Platziconf-logo" />
             <h1>Print Your Badges</h1>
             <p>The easies way to manage your conference</p>
-            <Link to="/badges/new" className="btn btn-primary">
+            <Link to="/badges" className="btn btn-primary">
               Start Now
             </Link>
           </div>
